@@ -1,1 +1,13 @@
 C:\Users\takah_000\github\miniMatrixStrap-gen-windows\miniMatrixStrap-gen\miniMatrixStrap-gen\bin\Debug\miniMatrixStrap-gen.exe.config
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\bin\Debug\miniMatrixStrap-gen.exe.config
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\bin\Debug\miniMatrixStrap-gen.exe
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\bin\Debug\miniMatrixStrap-gen.pdb
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\bin\Debug\ja\miniMatrixStrap-gen.resources.dll
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\obj\Debug\miniMatrixStrap-gen.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\obj\Debug\miniMatrixStrap_gen.Form1.resources
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\obj\Debug\miniMatrixStrap_gen.Properties.Resources.resources
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\obj\Debug\miniMatrixStrap_gen.Form1.ja.resources
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\obj\Debug\miniMatrixStrap-gen.csproj.GenerateResource.Cache
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\obj\Debug\ja\miniMatrixStrap-gen.resources.dll
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\obj\Debug\miniMatrixStrap-gen.exe
+D:\Documents\GitHub\miniMatrixStrap-gen-Windows\miniMatrixStrap-gen\miniMatrixStrap-gen\obj\Debug\miniMatrixStrap-gen.pdb
