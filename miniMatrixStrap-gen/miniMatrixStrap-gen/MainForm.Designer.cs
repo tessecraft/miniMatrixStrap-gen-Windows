@@ -1,6 +1,6 @@
 ﻿namespace miniMatrixStrap_gen
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.panel1 = new System.Windows.Forms.Panel();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
@@ -53,6 +53,14 @@
             this.redToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.showToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -143,7 +151,9 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileFToolStripMenuItem,
-            this.editEToolStripMenuItem});
+            this.editEToolStripMenuItem,
+            this.viewToolStripMenuItem,
+            this.helpToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
@@ -154,6 +164,8 @@
             this.openToolStripMenuItem,
             this.saveToolStripMenuItem,
             this.saveAsToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.exportToolStripMenuItem,
             this.toolStripSeparator1,
             this.exitToolStripMenuItem});
             this.fileFToolStripMenuItem.Name = "fileFToolStripMenuItem";
@@ -214,6 +226,52 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // viewToolStripMenuItem
+            // 
+            this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolBarToolStripMenuItem});
+            this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
+            resources.ApplyResources(this.viewToolStripMenuItem, "viewToolStripMenuItem");
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.showToolStripMenuItem,
+            this.toolStripSeparator3,
+            this.aboutToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
+            // 
+            // exportToolStripMenuItem
+            // 
+            this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
+            resources.ApplyResources(this.exportToolStripMenuItem, "exportToolStripMenuItem");
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            // 
+            // showToolStripMenuItem
+            // 
+            this.showToolStripMenuItem.Name = "showToolStripMenuItem";
+            resources.ApplyResources(this.showToolStripMenuItem, "showToolStripMenuItem");
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
+            // 
+            // toolBarToolStripMenuItem
+            // 
+            this.toolBarToolStripMenuItem.Name = "toolBarToolStripMenuItem";
+            resources.ApplyResources(this.toolBarToolStripMenuItem, "toolBarToolStripMenuItem");
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -265,6 +323,14 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem exportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem showToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolBarToolStripMenuItem;
     }
 }
 

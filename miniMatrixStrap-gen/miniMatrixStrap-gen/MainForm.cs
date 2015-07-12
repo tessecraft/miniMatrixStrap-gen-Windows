@@ -10,19 +10,18 @@ using System.Windows.Forms;
 
 namespace miniMatrixStrap_gen
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        Boolean modifiedFiles = false;
-        Boolean newFile = true;
+        FileData fd = new FileData(0,0);
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
 
         private void NewButtonClick(object sender, EventArgs e)
         {
-            if (modifiedFiles)
+            if (fd.modified)
             {
                 switch (MessageBox.Show("This file not saved!!\n\nSave?", "Warning", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1))
                 {
@@ -38,11 +37,19 @@ namespace miniMatrixStrap_gen
             }
 
             //NewFile
+
+            NewFile nf = new NewFile();
+            if (nf.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+
+            }
+
+
         }
 
         private void SaveButtonClick(object sender, EventArgs e)
         {
-            if (newFile)
+            if (fd.newFile)
             {
                 //Save As
                 SaveAsButtonClick(null, null);
@@ -68,9 +75,8 @@ namespace miniMatrixStrap_gen
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Add Shortcut Keys
+            
         }
-
 
     }
 }
